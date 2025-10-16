@@ -1,10 +1,33 @@
-# React + Vite
+## 🚀 Getting Started
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Cloning the Repository
 
-Currently, two official plugins are available:
+To clone the repository locally, use the following commands:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# sum-ai
-# sum-ai
+```bash
+git clone https://github.com/your-username/sum-ai.git
+cd sum-ai
+```
+
+### Installation
+
+```bash
+npm install
+```
+
+### Configuration
+
+Create a `.env` file in the root folder of your project. Update it following the convention of the `.env.example` file.
+Here's an example:
+
+```
+VITE_RAPID_API_KEY=
+VITE_RAPID_API_HOST=
+VITE_RAPID_API_BASE_URL=
+```
+
+### Running the Project
+
+```bash
+npm run dev
+```
